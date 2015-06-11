@@ -1,11 +1,15 @@
-# hyraxweb
+Simple clojure/clojure-script web service
+=======
 
-# Command go run RUN
+Running the server
+-----------
 lein up
 
 
-# Basic clojure web service using clojurescript
+APIs
+-----------
 
-Creates two web services
-    /           - contains a polling call to the api below and generates the HTML to display
-    /widgets    - returns some widjets in JSON format
+| URL         |   |
+|-------------|---|
+|  /          | contains a polling call to the api below and generates the HTML to display |
+|  /widgets   | returns some widjets in JSON format |
